@@ -1,6 +1,6 @@
 # NodeJS Project Setup on Macintosh
 
-This guide will help you set up and run the DSE Challenge project on a Macintosh.
+This guide will help you set up and run the project on a Macintosh.
 
 ## Prerequisites
 
