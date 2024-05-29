@@ -1,0 +1,28 @@
+<head>
+	<title>Finch DSE Project</title>
+	<link rel='stylesheet' href='/css/styles.css' type='text/css'>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<script src="/js/dse.js"></script>
+	<h2>Finch DSE Project</h2>
+	<button class="button" title="Get Company" id="company">Get Company</button>
+	<button class="button" title="Get Directory" id="directory">Get Directory</button>
+	
+	<div class="flex-container">
+		<div id="column1">
+		</div>
+		<div id="column2">
+		</div>
+	</div>
+
+	<form id="data_form" name="data_form" method='POST' action="/proxy">
+		<input name="verb" type="hidden">
+		<input name="url_path" type="hidden">
+		<input name="form_method" type="hidden">
+		<input name="individual_id" type="hidden">
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+html {
+	font-family: Arial, sans-serif;
+	border-color: gray;
+  }
+
+.flex-container {
+    display: flex;
+    flex-direction: row; /* Align children vertically */
+}
+
+#column1, #column2 {
+	border: 1px solid black; /* Add a border to each div */
+    padding: 10px; /* Optional: Add padding for better spacing */
+	width: 48%; 
+	margin: 2px;
+}
