@@ -1,46 +1,44 @@
-# NodeJS Project Setup on Macintosh
+# NodeJS Project Setup for Macintosh
 
-This guide will help you set up and run the project on a Macintosh.
+1. Download and install Node.js version 22.1.0: [Node.js Download](https://nodejs.org/en/download)
 
-## Prerequisites
-
-- Node.js version 22.1.0
-
-## Installation Steps
-
-1. **Download and Install Node.js**
-
-   Download Node.js version 22.1.0 from the official website:  
-   [Node.js Download](https://nodejs.org/en/download)
-
-2. **Clone the DSE Challenge Project**
-
-   Open a terminal window and run the following command to clone the project:
+2. Open a terminal window and clone the DSE Challenge project:
    ```bash
    git clone https://github.com/markstephenburnham/dse.git
-   ```
 (If prompted to install developer tools to use git, please do so.)
 
-3. **Change directory to the cloned project**
-   ```bash
-   cd dse
-   ```
-4. **Run the following command to install all necessary dependencies**
+Change directory into the dse directory:
 
-   ```bash
-   npm install
-   ```
-5. **Set the required environment variables by running the following commands**
+bash
+Copy code
+cd dse
+Run the following command to install the required packages:
 
-   ```bash
-   export C_CLIENT_ID=<your client id>
-   export C_REDIRECT_URL=http://localhost:3000/auth
-   export C_CLIENT_SECRET=<your client secret>
-   ```
-6. **Run the following command to start the project**
+bash
+Copy code
+npm install
+Set the following environment variables:
 
-   ```bash
-   npm start
-   ```
-7. **Point your browser to:**
-http://localhost:3000
+bash
+Copy code
+export C_CLIENT_ID=<your finch clientid>
+export C_REDIRECT_URL=http://localhost:3000/auth
+export C_CLIENT_SECRET=<your client secret>
+Start the application:
+
+bash
+Copy code
+npm start
+Point a browser to http://localhost:3000
+
+css
+Copy code
+
+This Markdown text includes code blocks and links to provide a clear, formatted setup guide for your Node.js project.
+
+
+
+
+
+
+
