@@ -2,7 +2,7 @@
 
 1. Download and install Node.js version 22.1.0: [Node.js Download](https://nodejs.org/en/download)
 
-2. Open a terminal window and clone the DSE Challenge project:
+2. Open a terminal window and clone the project:
    ```bash
    git clone https://github.com/markstephenburnham/OAuth-Data-Example
 (If prompted to install developer tools to use git, please do so.)
